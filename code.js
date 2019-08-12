@@ -10,7 +10,7 @@ var helloWorld = function(){
 };
 
 function sayHello() {
-    return " ";
+    return "Hello, Jane!";
 }
 
 function sum(a, b) {
