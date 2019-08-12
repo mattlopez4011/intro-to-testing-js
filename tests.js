@@ -14,6 +14,15 @@ describe('helloWorld', function() {
     });
 });
 
+// sayHello function test
+describe('sayHello', function () {
+    it('should be a defined function', function () {
+        expect(typeof sayHello).toBe('function');
+
+    });
+});
+
+// sum Function test
 describe('sum' , function () {
     it('should be a defined function' , function () {
         expect(typeof sum).toBe('function')

@@ -1,6 +1,16 @@
 // helloWorld function 
-function helloWorld() {
+// function helloWorld() {
+//     return "Hello, World!";
+//     // return "Hello"
+//     // console.log("Hello, World!");
+// }
+
+var helloWorld = function(){
     return "Hello, World!";
+};
+
+function sayHello() {
+    
 }
 
 function sum(a, b) {
